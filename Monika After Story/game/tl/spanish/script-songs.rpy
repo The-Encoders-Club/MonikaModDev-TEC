@@ -826,13 +826,13 @@ translate spanish mas_song_nobody_makes_sense_a9691066:
 translate spanish mas_song_nobody_makes_sense_86fbd078:
 
     # m 3eksdld "{i}~Even when we've turned into ghosts; even when we've returned to nothingness, {/i}{nw}"
-    m 3eksdld "{i}~Obake ni natte mo kyomu ni kaette mo, \n{size=-4}(Incluso cuando nos hemos convertido en fantasmas; incluso cuando volvamos a la nada) {/size}{/i}{nw}"
+    m 3eksdld "{i}~Obake ni natte mo kyomu ni kaette mo,{/i}{nw}"
 
 # game/script-songs.rpy:823
 translate spanish mas_song_nobody_makes_sense_2ce8444f:
 
     # extend 3hksdlb "{i}I still hope I could keep on smiling with you~{/i}"
-    extend 3hksdlb "{i}Soredemo kimi to waratte itai na~\n{size=-4}(Todavía espero poder seguir sonriendo contigo~) {/size}{/i}"
+    extend 3hksdlb "{i}Soredemo kimi to waratte itai na~\n{size=-4}(Incluso cuando nos hemos convertido en fantasmas; incluso cuando volvamos a la nada, todavía espero poder seguir sonriendo contigo~) {/size}{/i}"
 
 # game/script-songs.rpy:824
 translate spanish mas_song_nobody_makes_sense_d68c0e32:
