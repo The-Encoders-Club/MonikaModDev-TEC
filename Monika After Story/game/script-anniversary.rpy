@@ -718,7 +718,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='anni_9',
-            prompt="9 Years",
+            prompt=_("9 Years"),
             category=["anniversary"],
             action=EV_ACT_QUEUE,
             start_date=store.mas_anni.build_anni(years=9),
