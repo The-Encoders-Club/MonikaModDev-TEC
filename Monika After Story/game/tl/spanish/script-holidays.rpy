@@ -9972,8 +9972,8 @@ P.D: No le hables de mí.
     new "... por perderme tu cumpleaños."
 
     # game/script-holidays.rpy:8015
-    old "...for forgetting your birthday."
-    new "... por olvidar tu cumpleaños."
+    # old "...for forgetting your birthday."
+    # new "... por olvidar tu cumpleaños."
 
     # Poema: poem_d25_1 - The Joy to my World
     # game/script-holidays.rpy:3040
