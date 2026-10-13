@@ -9196,8 +9196,8 @@ label monika_concerts:
             python:
                 musicgenrename = ""
                 while len(musicgenrename) == 0:
-                    musicgenrename = renpy.input_((
-                        _('What kind of music do you listen to?')),
+                    musicgenrename = renpy.input(
+                        _('What kind of music do you listen to?'),
                         length=15,
                         allow=letters_only
                     ).strip(' \t\n\r')
@@ -9211,7 +9211,7 @@ label monika_concerts:
             # NOTE: should be think? maybe?
             m 1eua "Interesting..."
             show monika 3hub
-            $ renpy.say(m, _("I'd love to go to {0} concert with you!").format(mas_a_an_str(tempmusicgenre)))
+            $ renpy.say(m, __("I'd love to go to {0} concert with you!").format(mas_a_an_str(tempmusicgenre)))
 
         "No.":
             if (
