@@ -43,7 +43,7 @@ La adaptación y el mantenimiento de este proyecto son posibles gracias al traba
     <a href="https://github.com/InkedYoru01" title="InkedYoru01"><img src="https://github.com/InkedYoru01.png" width="12%" style="max-width: 105px; aspect-ratio: 1/1; border-radius: 8px; margin: 4px;" alt="InkedYoru01"/></a>
 </p>
 
-Para ver la lista completa de personas que han contribuido al desarrollo del mod original y a esta traducción, revisa el archivo de [Créditos](https://github.com/Slytharbez/MonikaModDev-TEC/blob/spanish/Credits.md).
+Para ver la lista completa de personas que han contribuido al desarrollo del mod original y a esta traducción, revisa el archivo de [Créditos](https://github.com/Slytharbez/MonikaModDev-TEC/blob/main/Credits.md).
 
 ## 📥 Cómo instalar Monika After Story en Español
 Para disfrutar de Monika After Story en español, sigue este proceso sencillo:
@@ -115,7 +115,7 @@ Para estar al tanto de las novedades globales del mod, te recomendamos unirte al
 Hacemos nuestro mejor esfuerzo por cumplir con las [directrices para trabajos de fans de Team Salvato](http://teamsalvato.com/ip-guidelines/). Todos los personajes y contenidos originales son propiedad de Team Salvato. Monika After Story es un proyecto de código abierto, con contribuciones de múltiples desarrolladores oficiales y colaboradores de la comunidad. Puedes consultar más detalles en la página de [Licencia y directrices de Team Salvato](https://github.com/The-Encoders-Club/MonikaModDev-TEC/wiki/Licencia-y-directrices-de-Team-Salvato).
 
 ## 🏗️ Estado de la compilación (Build Status)
-* <a href="https://github.com/The-Encoders-Club/MonikaModDev-TEC/tree/spanish"><img src="https://img.shields.io/badge/Traducción-spanish-4CAF50?style=flat-square&logo=github" alt="spanish"></a> **Estado de nuestra traducción en español en la rama de desarrollo.**
+* <a href="https://github.com/The-Encoders-Club/MonikaModDev-TEC/tree/main"><img src="https://img.shields.io/badge/Traducción-main-4CAF50?style=flat-square&logo=github" alt="main"></a> **Estado de nuestra traducción en español en la rama de desarrollo.**
 * <a href="https://github.com/Monika-After-Story/MonikaModDev/tree/master"><img src="https://img.shields.io/badge/Estable-master-blue?style=flat-square&logo=github" alt="master"></a> **Estado de la rama principal del código original y oficial del mod en inglés.**
 
 > **Inicio del proyecto:** [23/12/2023](https://www.youtube.com/watch?v=1KVam6mi7k8)  
