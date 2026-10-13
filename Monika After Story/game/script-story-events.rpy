@@ -1530,20 +1530,20 @@ init 11 python:
             global mas_note_backups_all_good, mas_note_backups_some_bad
 
             # text pieces:
-            just_let_u_know = _(
+            just_let_u_know = __(
                 'Just wanted to let you know that your "persistent" file was '
                 'corrupted, but I managed to restore an older backup!'
             )
-            even_though_bs = _(
+            even_though_bs = __(
                 "Even though the backup system I designed is pretty neat, "
             )
-            if_i_ever = _(
+            if_i_ever = __(
                 'If I ever have trouble loading the "persistent" again, I\'ll '
                 'write you another note in the characters folder, so keep an '
                 'eye out for them!'
             )
-            good_luck = _("Good luck with Monika!")
-            dont_tell = _("P.S: Don't tell her about me!")
+            good_luck = __("Good luck with Monika!")
+            dont_tell = __("P.S: Don't tell her about me!")
             block_break = "\n\n"
 
             # now make the notes
@@ -1557,13 +1557,13 @@ init 11 python:
                     just_let_u_know,
                     block_break,
                     even_though_bs,
-                    _("you should still make copies of the backups every so "),
-                    _("often, just in case. "),
-                    _('The backups are called "persistent##.bak", where "##" is '),
-                    _("a two-digit number. "),
-                    _('You can find all of them at "'),
+                    __("you should still make copies of the backups every so "),
+                    __("often, just in case. "),
+                    __('The backups are called "persistent##.bak", where "##" is '),
+                    __("a two-digit number. "),
+                    __('You can find all of them at "'),
                     renpy.config.savedir,
-                    _('".'),
+                    __('".'),
                     block_break,
                     if_i_ever,
                     block_break,
@@ -1582,22 +1582,22 @@ init 11 python:
                 text="".join([
                     just_let_u_know,
                     block_break,
-                    _("However, some of your backups were corrupted as well. "),
+                    __("However, some of your backups were corrupted as well. "),
                     even_though_bs,
-                    _("you should still delete those, since they might mess "),
-                    _("with it. "),
+                    __("you should still delete those, since they might mess "),
+                    __("with it. "),
                     block_break,
-                    _("Here's a list of the files that were corrupted:"),
+                    __("Here's a list of the files that were corrupted:"),
                     block_break,
                     "\n".join(store.mas_utils.bullet_list(
                         mas_per_check.mas_bad_backups
                     )),
                     block_break,
-                    _('You can find these in "'),
+                    __('You can find these in "'),
                     renpy.config.savedir,
-                    _('". '),
-                    _("When you're in there, you should also make copies of "),
-                    _("the good backups, just in case."),
+                    __('". '),
+                    __("When you're in there, you should also make copies of "),
+                    __("the good backups, just in case."),
                     block_break,
                     if_i_ever,
                     block_break,
@@ -1613,14 +1613,14 @@ init 11 python:
         if len(mas_per_check.mas_bad_backups) > 0:
             # we had some bad backups
             store.mas_utils.trywrite(
-                os.path.normcase(renpy.config.basedir + "/characters/" + _("note.txt")),
+                os.path.normcase(renpy.config.basedir + "/characters/" + __("note.txt")),
                 renpy.substitute(mas_note_backups_some_bad.title) + "\n\n" + mas_note_backups_some_bad.text
             )
 
         else:
             # no bad backups
             store.mas_utils.trywrite(
-                os.path.normcase(renpy.config.basedir + "/characters/" + _("note.txt")),
+                os.path.normcase(renpy.config.basedir + "/characters/" + __("note.txt")),
                 renpy.substitute(mas_note_backups_all_good.title) + "\n\n" + mas_note_backups_all_good.text
             )
 
@@ -2185,7 +2185,7 @@ label mas_gift_giving_instructs:
         return
 
     python:
-        gift_instructs = _("""\
+        gift_instructs = __("""\
 I wanted to let you know that I made a little way for you to give Monika some gifts!
 It's a pretty simple process so I'll tell you how it works:
 
@@ -2204,7 +2204,7 @@ P.S: Don't tell her about me!
 
         #Write the note in the characters folder
         store.mas_utils.trywrite(
-            os.path.normcase(renpy.config.basedir + "/characters/" + _("hint.txt")),
+            os.path.normcase(renpy.config.basedir + "/characters/" + __("hint.txt")),
             player + "\n\n" + gift_instructs
         )
 

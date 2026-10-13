@@ -4738,7 +4738,7 @@ label greeting_found_nou_shirt:
             $ persistent._mas_pm_snitched_on_chibika = True
             $ renpy.invoke_in_thread(
                 mas_utils.trywrite,
-                os.path.join(renpy.config.basedir, "characters/" + _("for snitch.txt")),
+                os.path.join(renpy.config.basedir, "characters/" + renpy.substitute(_("for snitch.txt"))),
                 ">:("
             )
             jump greeting_found_nou_shirt.menu_choice_other

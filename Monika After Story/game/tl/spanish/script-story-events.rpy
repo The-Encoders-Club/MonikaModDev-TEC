@@ -4711,6 +4711,10 @@ translate spanish strings:
     old "Even though the backup system I designed is pretty neat, "
     new "Aunque el sistema de copia de seguridad que diseñé es bastante ordenado, "
 
+    # game/script-story-events.rpy:1545
+    old "If I ever have trouble loading the \"persistent\" again, I'll write you another note in the characters folder, so keep an eye out for them!"
+    new "Si alguna vez vuelvo a tener problemas para cargar el \"persistent\", te escribiré otra nota en la carpeta characters, ¡así que no la pierdas de vista!"
+
     # game/script-story-events.rpy:1543
     old "Just wanted to let you know that your \"persistent\" file was corrupted, but I managed to restore an older backup!"
     new "¡Solo quería que supieras que tu archivo \"persistent\" estaba dañado, pero logré restaurar una copia de seguridad anterior!"

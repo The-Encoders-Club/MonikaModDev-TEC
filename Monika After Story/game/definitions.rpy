@@ -5763,8 +5763,8 @@ init -1 python:
             True is apology is present, False otherwise
         """
         return (
-            store.mas_utils.is_file_present('/characters/' + _("imsorry"))
-            or store.mas_utils.is_file_present('/characters/' + _("imsorry.txt"))
+            store.mas_utils.is_file_present('/characters/' + __("imsorry"))
+            or store.mas_utils.is_file_present('/characters/' + __("imsorry.txt"))
         )
 
     def mas_cvToHM(mins):

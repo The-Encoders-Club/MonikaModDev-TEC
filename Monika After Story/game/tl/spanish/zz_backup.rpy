@@ -172,7 +172,7 @@ translate spanish mas_backups_could_not_copy_506e63c3:
 translate spanish mas_backups_could_not_copy_db691487:
 
     # "In case you didn't write those steps down, I'll write them into a file called 'recovery.txt' in the characters folder."
-    "En caso de que no hayas anotado los pasos, los escribiré en un archivo llamado 'recuperacion.txt' en la carpeta de characters."
+    "En caso de que no hayas anotado los pasos, los escribiré en un archivo llamado 'recuperación.txt' en la carpeta de characters."
 
 # game/zz_backup.rpy:813
 translate spanish mas_backups_could_not_copy_597fa4a8:
