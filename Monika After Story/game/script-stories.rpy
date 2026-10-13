@@ -193,11 +193,11 @@ label monika_short_stories_menu:
         # build switch button
         #TODO: Build a generalized switch for more than just two items
         if story_type == mas_stories.TYPE_SCARY:
-            switch_str = _("short")
+            switch_str = __("short")
         else:
-            switch_str = _("scary")
+            switch_str = __("scary")
 
-        switch_item = (_("I'd like to hear a {0} story").format(switch_str), "monika_short_stories_menu", False, False, 20)
+        switch_item = (__("I'd like to hear a {0} story").format(switch_str), "monika_short_stories_menu", False, False, 20)
 
         final_item = (mas_stories.STORY_RETURN, False, False, False, 0)
 
@@ -205,11 +205,11 @@ label monika_short_stories_menu:
     show monika 1eua at t21
 
     if story_type == mas_stories.TYPE_SCARY:
-        $ which = _("Witch")
+        $ which = __("Witch")
     else:
-        $ which = _("Which")
+        $ which = __("Which")
 
-    $ renpy.say(m, _("{0} story would you like to hear?").format(which) + end, interact=False)
+    $ renpy.say(m, __("{0} story would you like to hear?").format(which) + end, interact=False)
 
     # call scrollable pane
     call screen mas_gen_scrollable_menu(stories_menu_items, mas_ui.SCROLLABLE_MENU_TXT_LOW_AREA, mas_ui.SCROLLABLE_MENU_XALIGN, switch_item, final_item)
@@ -236,7 +236,7 @@ label monika_short_stories_menu:
             if story_to_push == mas_stories.UNLOCK_NEW:
                 if not can_unlock_story:
                     show monika at t11
-                    $ _story_type = _(story_type) if story_type != 'normal' else _('short')
+                    $ _story_type = __(story_type) if story_type != 'normal' else __('short')
                     m 1ekc "Sorry [player]...I can't really think of a new [_story_type] story right now..."
                     m 1eka "If you give me some time I might be able to think of one soon...but in the meantime, I can always tell you an old one again~"
                     show monika 1eua

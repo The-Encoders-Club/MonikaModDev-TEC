@@ -4816,7 +4816,7 @@ translate spanish strings:
 
     # game/script-stories.rpy:212
     old "{0} story would you like to hear?"
-    new "{0} historia te gustaría escuchar?"
+    new "¿{0} historia te gustaría escuchar?"
 
     # game/script-stories.rpy:264
     old "Alright, let's start the story."
