@@ -2362,6 +2362,126 @@ translate spanish strings:
     old "Thanks, love!"
     new "¡Gracias, amor!"
 
+    # game/zz_cardgames.rpy:1894
+    old "Sorry, I'm not sure, [player]..."
+    new "Lo siento, no estoy segura, [player]..."
+
+    # game/zz_cardgames.rpy:1900
+    old "The give up button is right below~"
+    new "El botón para rendirte está justo abajo~"
+
+    # game/zz_cardgames.rpy:1910
+    old "Find a better deck, this one is rigged..."
+    new "Busca una baraja mejor, esta tiene trampa..."
+
+    # game/zz_cardgames.rpy:1916
+    old "Just git gud, [player]! Ahaha~"
+    new "¡Solo hazte buen[o_a], [player]! Jajaja~"
+
+    # game/zz_cardgames.rpy:1922
+    old "Play anything but {i}Draw Two{/i} and {i}Draw Four{/i}, darling. I don't have anything to counter those~"
+    new "Juega cualquier cosa menos {i}Toma Dos{/i} y {i}Toma Cuatro{/i}, cariño. No tengo nada para contratacar a esas~"
+
+    # game/zz_cardgames.rpy:1925
+    old "Just draw more cards, always works~"
+    new "Solo roba más cartas, siempre funciona~"
+
+    # game/zz_cardgames.rpy:1932
+    old "You need to play a{0} '{1}' or any {2} card."
+    new "Tienes que jugar un{0} '{1}' o cualquier carta de color {2}."
+
+    # game/zz_cardgames.rpy:1933
+    old "n"
+    new ""
+
+    # game/zz_cardgames.rpy:1941
+    old " Since you drew a card, you can try to play it or skip your turn."
+    new " Como robaste una carta, puedes intentar jugarla o pasar tu turno."
+
+    # game/zz_cardgames.rpy:1946
+    old " If you don't have an appropriate card, then you'll have to skip this turn."
+    new " Si no tienes una carta adecuada, tendrás que pasar este turno."
+
+    # game/zz_cardgames.rpy:1951
+    old " If you don't have an appropriate card, you should draw a card and then either play it or skip your turn."
+    new " Si no tienes una carta adecuada, debes robar una y luego jugarla o pasar tu turno."
+
+    # game/zz_cardgames.rpy:1956
+    old "You have to skip this turn"
+    new "Tienes que pasar este turno"
+
+    # game/zz_cardgames.rpy:1965
+    old "--just like the last one--"
+    new "--igual que el anterior--"
+
+    # game/zz_cardgames.rpy:1970
+    old "{0}and draw {1}"
+    new "{0}y robar {1}"
+
+    # game/zz_cardgames.rpy:1975
+    old " more"
+    new " más"
+
+    # game/zz_cardgames.rpy:1979
+    old " card{0}"
+    new " carta{0}"
+
+    # game/zz_cardgames.rpy:1980
+    old "s"
+    new "s"
+
+    # game/zz_cardgames.rpy:1988
+    old "Reverse"
+    new "Reversa"
+
+    # game/zz_cardgames.rpy:1995
+    old "Draw Two"
+    new "Toma Dos"
+
+    # game/zz_cardgames.rpy:2001
+    old "Draw Two{/i} or {i}Draw Four"
+    new "Toma Dos{/i} o {i}Toma Cuatro"
+
+    # game/zz_cardgames.rpy:2013
+    old " If you have a {0}{1}{{i}}{2}{{/i}}, you could {{i}}try{{/i}} to reflect {3} card."
+    new " Si tienes un {{i}}{2}{{/i}}{1}{0}, podrías {{i}}intentar{{/i}} reflejar {3} carta."
+
+    # game/zz_cardgames.rpy:2017
+    old "my"
+    new "mi"
+
+    # game/zz_cardgames.rpy:2017
+    old "the top"
+    new "la de arriba de la"
+
+    # game/zz_cardgames.rpy:2023
+    old " Can't promise I won't reflect it back to you~"
+    new " No te prometo que no te la refleje de vuelta~"
+
+    # game/zz_cardgames.rpy:2026
+    old ".. If you're brave enough~"
+    new "... Si eres lo bastante valiente~"
+
+    # game/zz_cardgames.rpy:2031
+    old "You need to play a {{i}}{0}{{/i}} or any {1} card."
+    new "Tienes que jugar un {{i}}{0}{{/i}} o cualquier carta de color {1}."
+
+    # game/zz_cardgames.rpy:2040
+    old "You need to choose a color before we can continue."
+    new "Tienes que elegir un color antes de que podamos continuar."
+
+    # game/zz_cardgames.rpy:2045
+    old "You need to play any {0} card."
+    new "Tienes que jugar cualquier carta de color {0}."
+
+    # game/zz_cardgames.rpy:2050
+    old " Otherwise you'll have to skip your turn~"
+    new " De lo contrario tendrás que pasar tu turno~"
+
+    # game/zz_cardgames.rpy:2055
+    old " Otherwise draw a card and try to play it."
+    new " De lo contrario roba una carta e intenta jugarla."
+
     # game/zz_cardgames.rpy:3975
     old "Let's change our house rules for NOU"
     new "Cambiemos las reglas de la casa para el NOU"
@@ -2489,7 +2609,6 @@ translate spanish strings:
     # game/zz_cardgames.rpy:5239
     old "Yellow"
     new "Amarillo"
-
 
 init 5 python:
 
