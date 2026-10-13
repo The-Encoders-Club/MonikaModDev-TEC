@@ -666,7 +666,7 @@ translate spanish strings:
 
     # game/screens.rpy:2192
     old "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-    new "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+    new "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzñÑáéíóúÁÉÍÓÚüÜ"
 
     # game/screens.rpy:2198
     old "OK"

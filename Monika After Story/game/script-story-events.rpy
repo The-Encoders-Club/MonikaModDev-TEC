@@ -510,7 +510,7 @@ label mas_player_name_enter_name_loop(input_prompt):
     while not done:
         python:
             tempname = mas_input(
-                "[input_prompt]",
+                "[input_prompt!t]",
                 length=20,
                 screen_kwargs={"use_return_button": True}
             ).strip(' \t\n\r')

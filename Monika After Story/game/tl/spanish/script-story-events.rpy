@@ -4631,9 +4631,17 @@ translate spanish strings:
     old "Yes, this is my name"
     new "Sí, este es mi nombre"
 
+    # game/script-story-events.rpy:628
+    old "Tell me, what is it?"
+    new "Dime, ¿cuál es?"
+
     # game/script-story-events.rpy:644
     old "I changed my name"
     new "Cambié mi nombre"
+
+    # game/script-story-events.rpy:654
+    old "What do you want me to call you?"
+    new "¿Cómo quieres que te llame?"
 
     # game/script-story-events.rpy:827
     old "my birthday"

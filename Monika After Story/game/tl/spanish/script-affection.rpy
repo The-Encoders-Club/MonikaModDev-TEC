@@ -1532,7 +1532,7 @@ translate spanish strings:
 
     # game/script-affection.rpy:3084
     old "Is there anything else you'd like me to call you?"
-    new "¿Hay otro sobrenombre que te gustaría que te llame?"
+    new "¿Hay otro sobrenombre con el que te gustaría que te llame?"
 
     # game/script-affection.rpy:3087
     old "Is there something else you'd like me to call you instead?"
