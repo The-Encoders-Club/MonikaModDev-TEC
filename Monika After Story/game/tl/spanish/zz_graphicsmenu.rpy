@@ -39,5 +39,5 @@ translate spanish strings:
     new "Renderizador actual:"
 
     # game/zz_graphicsmenu.rpy:339
-    old "Switch renderer to [sel_rend!t]?"
+    old "Switch renderer to [sel_rend]?"
     new "¿Cambiar el renderizador a [sel_rend!t]?"
