@@ -74,9 +74,12 @@ jobs:
       - name: Download base MAS
         if: steps.filter.outputs.mas == 'true' && steps.cache-mas.outputs.cache-hit != 'true'
         run: |
-          wget https://s3-us-west-2.amazonaws.com/monika-after-story/ddlc/mas.zip
-          mkdir mas0105
-          unzip mas.zip -d mas0105
+          # the upstream bucket (s3-us-west-2/monika-after-story) is no longer public,
+          # so the DDLC 1.1.1 base comes from our own R2 bucket (ddlc-win)
+          wget -nv https://pub-2e76ec94660346a093b04915a19b07c8.r2.dev/ddlc-win.zip
+          unzip -q ddlc-win.zip
+          mv DDLC-1.1.1-pc mas0105
+          rm ddlc-win.zip
 
       # TEMP
       #      - name: what are these
