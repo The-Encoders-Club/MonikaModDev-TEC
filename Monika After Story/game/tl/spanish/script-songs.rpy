@@ -4296,6 +4296,18 @@ translate spanish strings:
     old "short"
     new "corta"
 
+    # game/script-songs.rpy:204
+    old " (Short)"
+    new " (Corta)"
+
+    # game/script-songs.rpy:205
+    old " (Long)"
+    new " (Larga)"
+
+    # game/script-songs.rpy:206
+    old " (Analysis)"
+    new " (Análisis)"
+
     # game/script-songs.rpy:217
     old "Can you sing me a song?"
     new "¿Puedes cantarme una canción?"

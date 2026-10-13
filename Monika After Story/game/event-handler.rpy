@@ -3599,7 +3599,7 @@ label mas_bookmarks:
 
                 #Now append based on the delegate
                 bookmarks_items.append(
-                    (renpy.substitute(ev.prompt + prompt_suffix), ev.eventlabel, False, False)
+                    (renpy.substitute(ev.prompt) + renpy.substitute(prompt_suffix), ev.eventlabel, False, False)
                 )
 
         bookmarks_items.sort()
