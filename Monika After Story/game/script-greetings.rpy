@@ -1226,7 +1226,7 @@ label monikaroom_greeting_choice:
         pause 4.0
 
     menu:
-        "[_opendoor_text]" if not persistent.seen_monika_in_room and not mas_isplayer_bday():
+        "[_opendoor_text!t]" if not persistent.seen_monika_in_room and not mas_isplayer_bday():
             #Lose affection for not knocking before entering.
             $ mas_loseAffection(reason=5)
             if mas_isMoniUpset(lower=True):

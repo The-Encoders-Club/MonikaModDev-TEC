@@ -1885,7 +1885,7 @@ translate spanish monikaroom_greeting_ear_renpy_docs_9ec640ab:
 translate spanish monikaroom_greeting_ear_renpy_docs_5d0331c8:
 
     # m ".{w=0.3}.{w=0.3}.{w=0.3}Wait, what?"
-    m ".{w=0.3}.{w=0.3}.{w=0.3}Espera, ¿qué?"
+    m ".{w=0.3}.{w=0.3}.{w=0.3} Espera, ¿qué?"
 # game/script-greetings.rpy:1616
 translate spanish monikaroom_greeting_ear_renpy_docs_67bfb264:
 
@@ -7947,14 +7947,13 @@ translate spanish strings:
     old "Oh...{w=1} Hi, [player]."
     new "Oh... {w=1}hola, [player]."
 
-    # Greeting wrapped strings translations
     # game/script-greetings.rpy:1223
     old "...Gently open the door."
     new "... Abrir gentilmente la puerta."
 
     # game/script-greetings.rpy:1229
-    old "[_opendoor_text]"
-    new "[_opendoor_text]"
+    old "[_opendoor_text!t]"
+    new "[_opendoor_text!t]"
 
     # game/script-greetings.rpy:1237
     old "Open the door."
