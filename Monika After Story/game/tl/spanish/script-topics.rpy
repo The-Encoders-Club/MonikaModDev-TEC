@@ -3850,7 +3850,7 @@ translate spanish monika_kiss_9843bb0c:
 translate spanish monika_kiss_94f2b532:
 
     # m 1hub "Ahaha! I'm kidding."
-    m 1hub "¡Jajaja! Estoy bromenando."
+    m 1hub "¡Jajaja! Estoy bromeando."
 
 # game/script-topics.rpy:2057
 translate spanish monika_kiss_4bdd10eb:

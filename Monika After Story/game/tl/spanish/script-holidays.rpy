@@ -9881,7 +9881,7 @@ translate spanish strings:
 
     # game/script-holidays.rpy:7319
     old "gotcha"
-    new "atrapad[o_a]"
+    new "entendido"
 
     # game/script-holidays.rpy:7395
     old "For {0}.txt"
