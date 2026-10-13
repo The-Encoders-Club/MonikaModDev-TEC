@@ -6557,15 +6557,15 @@ label monika_sayhappybirthday:
 
         # age suffix dictionary
         age_suffix = {
-            1: _("st"),
-            2: _("nd"),
-            3: _("rd"),
-            11: _("th"),
-            12: _("th"),
-            13: _("th"),
-            111: _("th"),
-            112: _("th"),
-            113: _("th")
+            1: __("st"),
+            2: __("nd"),
+            3: __("rd"),
+            11: __("th"),
+            12: __("th"),
+            13: __("th"),
+            111: __("th"),
+            112: __("th"),
+            113: __("th")
         }
 
     #TODO: temporary m_name reset for this
@@ -6638,10 +6638,10 @@ label monika_sayhappybirthday:
             if age_suff:
                 age_str = str(age) + age_suff
             else:
-                age_str = str(age) + age_suffix.get(age % 10, _("th"))
-            bday_msg = _("happy {0} birthday").format(age_str)
+                age_str = str(age) + age_suffix.get(age % 10, __("th"))
+            bday_msg = __("happy {0} birthday").format(age_str)
     else:
-        $ bday_msg = _("happy birthday")
+        $ bday_msg = __("happy birthday")
 
     # we do a loop here in case we are recording and we should do a retake
     $ done = False

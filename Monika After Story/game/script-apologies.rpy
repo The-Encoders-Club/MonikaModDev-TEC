@@ -73,7 +73,7 @@ label monika_playerapologizes:
         #If there's a non-generic apology reason pending we use "for something else."
         $ mas_setEVLPropValues(
             "mas_apology_generic",
-            prompt=_("...for {0}").format(_(player_apology_reasons.get(mas_apology_reason,player_apology_reasons[0])))
+            prompt=__("...for {0}").format(__(player_apology_reasons.get(mas_apology_reason,player_apology_reasons[0])))
         )
     else:
         #Otherwise, we use "for something." if reason isn't 0
@@ -83,7 +83,7 @@ label monika_playerapologizes:
             #We set this to an apology reason if it's valid
             $ mas_setEVLPropValues(
                 "mas_apology_generic",
-                prompt=_("...for {0}").format(_(player_apology_reasons.get(mas_apology_reason,"something.")))
+                prompt=__("...for {0}").format(__(player_apology_reasons.get(mas_apology_reason,"something.")))
             )
 
     #Then we delete this since we're not going to need it again until we come back here, where it's created again.

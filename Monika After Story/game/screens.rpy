@@ -3151,9 +3151,9 @@ screen submods():
                             text_text_align 0.0
 
                         if submod.coauthors:
-                            $ authors = _("v{#version tag}") + submod.version + _("{space=20}by{#submod author}") + " {0}, {1}".format(submod.author, ", ".join(submod.coauthors))
+                            $ authors = __("v{#version tag}") + submod.version + __("{space=20}by{#submod author}") + " {0}, {1}".format(submod.author, ", ".join(submod.coauthors))
                         else:
-                            $ authors = _("v{#version tag}") + submod.version + _("{space=20}by{#submod author}") + " {0}".format(submod.author)
+                            $ authors = __("v{#version tag}") + submod.version + __("{space=20}by{#submod author}") + " {0}".format(submod.author)
 
                         text "[authors]":
                             yanchor 0

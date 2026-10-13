@@ -318,12 +318,12 @@ label monika_sing_song_analysis:
         unlocked_analyses = mas_songs.getUnlockedSongAnalyses()
 
         if mas_isO31():
-            which = _("Witch")
+            which = __("Witch")
         else:
-            which = _("Which")
+            which = __("Which")
 
     show monika 1eua at t21
-    $ renpy.say(m, _("{0} song would you like to talk about?").format(which), interact=False)
+    $ renpy.say(m, __("{0} song would you like to talk about?").format(which), interact=False)
 
     call screen mas_gen_scrollable_menu(unlocked_analyses, mas_ui.SCROLLABLE_MENU_TXT_MEDIUM_AREA, mas_ui.SCROLLABLE_MENU_XALIGN, ret_back)
 

@@ -1704,7 +1704,7 @@ label mas_consumables_generic_queued_running_out_dlg(low_cons):
         python:
             items_running_out_of = ""
             if len(low_cons) == 2:
-                items_running_out_of = _("{0} and {1}").format(
+                items_running_out_of = __("{0} and {1}").format(
                     renpy.translation.translate_string(low_cons[0].disp_name),
                     renpy.translation.translate_string(low_cons[1].disp_name)
                 )
@@ -1878,7 +1878,7 @@ label monika_consumables_check:
         python:
             items_running_out_of = ""
             if len(low_cons) == 2:
-                items_running_out_of = _("{0} and {1}").format(
+                items_running_out_of = __("{0} and {1}").format(
                     renpy.translation.translate_string(low_cons[0].disp_name),
                     renpy.translation.translate_string(low_cons[1].disp_name)
                 )
