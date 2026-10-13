@@ -2842,13 +2842,13 @@ translate spanish mas_reaction_gift_clothes_hatana_tracen_uniform_05461659:
 translate spanish mas_reaction_gift_clothes_hatana_tracen_uniform_675d83db:
 
     # m 3eta "Hmm...now that I'm thinking about it..."
-    m 3eta "Mmm...ahora que lo pienso..."
+    m 3eta "Mmm... ahora que lo pienso... "
 
 # game/zz_reactions.rpy:2919
 translate spanish mas_reaction_gift_clothes_hatana_tracen_uniform_bf5fd7fa:
 
     # extend 3tua "I've never tried coding something like this, but I might have an idea for this costume."
-    extend 3tua "Nunca he intentado programar algo así, pero quizás tenga una idea para este disfraz."
+    extend 3tua "nunca he intentado programar algo así, pero quizás tenga una idea para este disfraz."
 
 translate spanish strings:
 

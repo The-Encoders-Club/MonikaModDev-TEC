@@ -778,13 +778,13 @@ translate spanish greeting_o31_hatana_2b_adab1308:
 translate spanish greeting_o31_hatana_tracen_uniform_5b3f63cc:
 
     # m "Okay, I think everything's in place."
-    m "Muy bien, creo que todo está en su lugar."
+    m "Okey, creo que todo está en su lugar."
 
 # game/script-holidays.rpy:1192
 translate spanish greeting_o31_hatana_tracen_uniform_2b6e299f:
 
     # m "All lined up at the starting gate...{w=0.3}and ready to run!"
-    m "Todo alineado en la puerta de salida...{w=0.3}¡y lista para correr!"
+    m "Todo alineado en la puerta de salida... {w=0.3}¡y lista para correr!"
 
 # game/script-holidays.rpy:1204
 translate spanish greeting_o31_hatana_tracen_uniform_83c5446e:
@@ -802,13 +802,13 @@ translate spanish greeting_o31_hatana_tracen_uniform_72a22c52:
 translate spanish greeting_o31_hatana_tracen_uniform_ff3df661:
 
     # m 1hua "Now that I have it on, it actually does sort of make me want to go for a jog. Ehehe~"
-    m 1hua "Ahora que lo tengo puesto, la verdad es que me dan un poco de ganas de salir a trotar. Jeje~"
+    m 1hua "Ahora que lo tengo puesto, la verdad es que me dan un poco de ganas de salir a correr. Jeje~"
 
 # game/script-holidays.rpy:1207
 translate spanish greeting_o31_hatana_tracen_uniform_18094123:
 
     # m 1kua "Can you imagine me zooming around the course, [mas_get_player_nickname()]?"
-    m 1kua "¿Te imaginas verme volando por la pista, [mas_get_player_nickname()]?"
+    m 1kua "¿Te imaginas verme correr a toda velocidad, [mas_get_player_nickname()]?"
 
 # game/script-holidays.rpy:1208
 translate spanish greeting_o31_hatana_tracen_uniform_f569be13:
