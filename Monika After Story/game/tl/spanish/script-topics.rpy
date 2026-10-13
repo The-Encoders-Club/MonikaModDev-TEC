@@ -30615,7 +30615,7 @@ translate spanish monika_players_friends_8040ed84:
 translate spanish monika_players_friends_f5cd5d8b:
 
     # m 3eud "[according_to], you can have up to 150 stable relationships, but those are just casual relationships which aren't too deep."
-    m 3eud "[according_to], puedes tener hasta 150 relaciones estables, pero esas son relaciones casuales que no son demasiado profundas."
+    m 3eud "[according_to!t], puedes tener hasta 150 relaciones estables, pero esas son relaciones casuales que no son demasiado profundas."
 
 # game/script-topics.rpy:11204
 translate spanish monika_players_friends_59d32737:
@@ -30681,13 +30681,13 @@ translate spanish monika_players_friends_7c0dc69f:
 translate spanish monika_players_friends_feels_lonely_ask_88b9d6df:
 
     # m "[question]{nw}"
-    m "[question]{nw}"
+    m "[question!t]{nw}"
 
 # game/script-topics.rpy:11231
 translate spanish monika_players_friends_feels_lonely_ask_d9a28ab8:
 
     # m "[question]{fast}" nointeract
-    m "[question]{fast}" nointeract
+    m "[question!t]{fast}" nointeract
 
 # game/script-topics.rpy:11236
 translate spanish monika_players_friends_feels_lonely_ask_eb42e33a:
@@ -51550,6 +51550,10 @@ translate spanish strings:
     old "[player]'s friends"
     new "Amigos de [player]"
 
+    # game/script-topics.rpy:11186
+    old "Do you ever feel lonely?"
+    new "¿Alguna vez has sentido soledad?"
+
     # game/script-topics.rpy:11188
     old "Only a few."
     new "Solo unos pocos."
@@ -51561,6 +51565,10 @@ translate spanish strings:
     # game/script-topics.rpy:11201
     old "According to Dunbar's number"
     new "Según el número de Dunbar"
+
+    # game/script-topics.rpy:11211
+    old "Do you ever feel lonely, [player]?"
+    new "¿Alguna vez has sentido soledad, [player]?"
 
     # game/script-topics.rpy:11213
     old "No, actually..."
