@@ -201,8 +201,8 @@ translate spanish strings:
     new "Ajustes"
 
     # game/screens.rpy:854
-    old "Just Monika"
-    new "Solo Monika"
+    old "Just Monika{#main_menu}"
+    new "Solo Monika{#main_menu}"
 
     # game/screens.rpy:856
     old "Load Game"
