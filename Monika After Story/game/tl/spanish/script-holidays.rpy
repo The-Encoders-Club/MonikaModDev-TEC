@@ -388,13 +388,13 @@ translate spanish greeting_o31_rin_67b23bc0:
 translate spanish greeting_o31_rin_83b53229:
 
     # m 1dtc "...But why would she push a wheelbarrow around?"
-    m 1dtc "... Pero ¿por qué empujaría una carretilla por ahí?"
+    m 1dtc "... ¿Pero por qué empujaría una carretilla por ahí?"
 
 # game/script-holidays.rpy:996
 translate spanish greeting_o31_rin_3d2bf81a:
 
     # m 1hksdlb "...Oh and it was {i}such{/i} a pain getting my hair done...{w=0.2}{nw}"
-    m 1hksdlb "... Ah, y fue {i}todo un lío{/i} peinarme... {w=0.2}{nw}"
+    m 1hksdlb "... Ah, y fue todo un {i}problema{/i} peinarme... {w=0.2}{nw}"
 
 # game/script-holidays.rpy:997
 translate spanish greeting_o31_rin_0f67f201:

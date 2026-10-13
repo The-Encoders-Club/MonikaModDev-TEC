@@ -853,13 +853,13 @@ translate spanish greeting_latin_61a9c02f:
 translate spanish greeting_latin_0ca4e431:
 
     # m 3eua "If you're wondering about what I said, it's simply 'We meet again! How are you?'"
-    m 3eua "Si te preguntas qué dije, es simplemente '¡Nos volvemos a encontrar! ¿Cómo estás?'"
+    m 3eua "Si te preguntas qué dije, es simplemente: '¡Nos volvemos a encontrar! ¿Cómo estás?'."
 
 # game/script-greetings.rpy:840
 translate spanish greeting_esperanto_3198cbb9:
 
     # m 1hua "Saluton, mia kara [player]."
-    m 1hua "Saluton, mia kara [player]"
+    m 1hua "Saluton, mia kara [player]."
 
 # game/script-greetings.rpy:841
 translate spanish greeting_esperanto_6d6d7dd9:
@@ -913,7 +913,7 @@ translate spanish greeting_esperanto_eb5ece36:
 translate spanish greeting_esperanto_a747ebd3:
 
     # extend 3hua "'Hello, my dear [player]. How are you? Are you ready to seize the day?'"
-    extend 3hua "'Hola, querid[o_a] [player]. ¿Cómo estás? ¿Estás list[o_a] para aprovechar el día?'"
+    extend 3hua "'Hola, querid[o_a] [player]. ¿Cómo estás? ¿Estás list[o_a] para aprovechar el día?'."
 
 # game/script-greetings.rpy:864
 translate spanish greeting_yay_b9532c80:
@@ -967,7 +967,7 @@ translate spanish greeting_hamlet_d79cd6a5:
 translate spanish greeting_hamlet_ca0dcede:
 
     # m 2rksdlc "I-I was--I wasn't sure you--"
-    m 2rksdlc "Y-Yo estaba... bo estaba segura de que tú..."
+    m 2rksdlc "Y-Yo estaba... no estaba segura de que tú..."
 
 # game/script-greetings.rpy:915
 translate spanish greeting_hamlet_c61f257d:
