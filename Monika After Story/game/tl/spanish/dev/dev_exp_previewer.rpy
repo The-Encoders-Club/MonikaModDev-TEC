@@ -267,10 +267,6 @@ translate spanish strings:
     # new "Vestido de verano (Blanco)"
 
     # dev/dev_exp_previewer.rpy:252
-    # old "Formal Dress (Black)"
-    # new "Vestido formal (Negro)"
-
-    # dev\dev_exp_previewer.rpy:170
     old "Formal Dress (Black)"
     new "Vestido formal (Negro)"
 
