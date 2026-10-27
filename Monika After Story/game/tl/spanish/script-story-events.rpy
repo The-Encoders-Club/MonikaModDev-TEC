@@ -3517,7 +3517,7 @@ translate spanish mas_backup_restored_6b6c264c:
     m 1etc "¿Añadiste un {w=0.1}{i}submod{/i}?"
 
 # game/script-story-events.rpy:2744
-translate spanish mas_backup_restored_ad3d9180:
+translate spanish mas_backup_restored_94d72937:
 
     # m 3esd "You should be more mindful of what you install on this computer."
     m 3esd "Deberías ser más consciente de lo que instalas en esta computadora."

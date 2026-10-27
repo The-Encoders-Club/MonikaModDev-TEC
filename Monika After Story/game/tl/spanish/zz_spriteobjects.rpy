@@ -1628,11 +1628,124 @@ translate spanish strings:
 
     # -------------------------------------------------------------------------
 
+    # Spritepack: [hatana] Head Bow (White)
+    # File: hatana_acs_tracen_uniform_head_bow_white.json
+    # display_name
+    old "Head Bow (White)"
+    new "Lazo blanco de cabeza"
+
+    # dlg_desc
+    # [DUPLICADO] old "bow"
+    # [DUPLICADO] new "este lazo"
+
+    # select_dlg
+    old "What a cute little bow!"
+    new "¡Qué lazo tan lindo!"
+
+    old "Much smaller than my usual hair tie, ehehe~"
+    new "Mucho más pequeño que mi cinta de siempre, jeje~"
+
+    # -------------------------------------------------------------------------
+
+    # Spritepack: [hatana] Uma Ears
+    # File: hatana_acs_uma_ears.json
+    # display_name
+    old "Uma Ears"
+    new "Orejas de Uma"
+
+    # dlg_desc
+    old "cosplay ears"
+    new "estas orejas de cosplay"
+
+    # select_dlg
+    old "Are we 'horsing around,' [player]?"
+    new "¿Estamos 'jugando', [player]?"
+
+    old "Ahaha, they feel kind of funny!"
+    new "¡Jajaja, se sienten un poco raras!"
+
+    old "Hashire, hashire, Umamusume..."
+    new "Hashire, hashire, Umamusume..."
+
+    # -------------------------------------------------------------------------
+
+    # Spritepack: [hatana] Tracen Academy Uniform (Summer)
+    # File: hatana_clothes_tracen_uniform.json
+    # display_name
+    old "Tracen Academy Uniform (Summer)"
+    new "Uniforme de la Academia Tracen de Verano"
+
+    # select_dlg
+    old "Umapyoi! Umapyoi!"
+    new "Umapyoi! Umapyoi!"
+
+    old "うまぴょい!　うまぴょい!"
+    new "{i}うまぴょい!　うまぴょい!\n{size=-4}(Umapyoi! Umapyoi!){/size}{/i}"
+
+    old "Harikitte ikou!!!!"
+    new "Harikitte ikou!!!!"
+
+    old "はりきっていこう!!!!"
+    new "{i}はりきっていこう!!!!\n{size=-4}(Harikitte ikou!!!!){/size}{/i}"
+
+    old "~hachimi hachimi hachimi~"
+    new "~hachimi hachimi hachimi~"
+
+    old "~はちみ、はちみ、はちみ~"
+    new "{i}~はちみ、はちみ、はちみ~\n{size=-4}(~hachimi hachimi hachimi~){/size}{/i}"
+
+    old "Mambo, mambo! Omatsuri mambo!"
+    new "Mambo, mambo! Omatsuri mambo!"
+
+    old "マンボ、マンボ~!　お祭りマンボ~!"
+    new "{i}マンボ、マンボ~!　お祭りマンボ~!\n{size=-4}(Mambo, mambo! Omatsuri mambo!){/size}{/i}"
+
+    old "Bakushin Bakushin Bakushin!"
+    new "Bakushin Bakushin Bakushin!"
+
+    old "バクシンバクシンバクシン!"
+    new "{i}バクシンバクシンバクシン!\n{size=-4}(Bakushin Bakushin Bakushin!){/size}{/i}"
+
+    old "Chi~yo Chiyo Chiyo Chiyono O~"
+    new "Chi~yo Chiyo Chiyo Chiyono O~"
+
+    old "チヨチヨチヨチヨチヨノオー"
+    new "{i}チヨチヨチヨチヨチヨノオー\n{size=-4}(Chi~yo Chiyo Chiyo Chiyono O~){/size}{/i}"
+
+    old "Konna, race wa~ Hajimete!"
+    new "Konna, race wa~ Hajimete!"
+
+    old "こんなーレースは、はじめて!"
+    new "{i}こんなーレースは、はじめて!\n{size=-4}(Konna, race wa~ Hajimete!){/size}{/i}"
+
+    old "I put the new forgis on the jeep"
+    new "I put the new forgis on the jeep\n{size=-4}(Le puse llantas nuevas al Jeep){/size}"
+
+    old "My history! My victory!"
+    new "¡Mi historia! ¡Mi victoria!"
+
+    # -------------------------------------------------------------------------
+
     # Spritepack: [hatana] YoRHa No.2 Type B
     # File: hatana_clothes_yorha_2b_cosplay.json
     # display_name
     old "YoRHa No.2 Type B"
     new "YoRHa Nº2 Tipo B"
+
+    # -------------------------------------------------------------------------
+
+    # Spritepack: [hatana] Down (Ears Hidden)
+    # File: hatana_hair_down_ears_hidden.json
+    # display_name
+    old "Down (Ears Hidden)"
+    new "Cabello suelto con orejas ocultas"
+
+    # select_dlg
+    old "Want me to hide my ears?"
+    new "¿Quieres que esconda mis orejas?"
+
+    old "Oh, I wonder why... ehehe~"
+    new "Oh, me pregunto por qué... jeje~"
 
     # -------------------------------------------------------------------------
 

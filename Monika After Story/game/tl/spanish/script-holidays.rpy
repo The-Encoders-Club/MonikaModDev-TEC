@@ -774,6 +774,48 @@ translate spanish greeting_o31_hatana_2b_adab1308:
     # m 1hksdlb "Oh gosh, I'm not even sure what that means, I'm just rambling now, ahaha!"
     m 1hksdlb "¡Oh cielos, ni siquiera estoy segura de lo que significa eso, ahora mismo solo estoy divagando, jajaja!"
 
+# game/script-holidays.rpy:1191
+translate spanish greeting_o31_hatana_tracen_uniform_5b3f63cc:
+
+    # m "Okay, I think everything's in place."
+    m "Muy bien, creo que todo está en su lugar."
+
+# game/script-holidays.rpy:1192
+translate spanish greeting_o31_hatana_tracen_uniform_2b6e299f:
+
+    # m "All lined up at the starting gate...{w=0.3}and ready to run!"
+    m "Todo alineado en la puerta de salida...{w=0.3}¡y lista para correr!"
+
+# game/script-holidays.rpy:1204
+translate spanish greeting_o31_hatana_tracen_uniform_83c5446e:
+
+    # m 2hubla "Ahaha~ What do you think, [player]?"
+    m 2hubla "¡Jajaja!~ ¿Qué te parece, [player]?"
+
+# game/script-holidays.rpy:1205
+translate spanish greeting_o31_hatana_tracen_uniform_72a22c52:
+
+    # m "I think the ears are the perfect addition, don't you?"
+    m "Creo que las orejas son el complemento perfecto, ¿no crees?"
+
+# game/script-holidays.rpy:1206
+translate spanish greeting_o31_hatana_tracen_uniform_ff3df661:
+
+    # m 1hua "Now that I have it on, it actually does sort of make me want to go for a jog. Ehehe~"
+    m 1hua "Ahora que lo tengo puesto, la verdad es que me dan un poco de ganas de salir a trotar. Jeje~"
+
+# game/script-holidays.rpy:1207
+translate spanish greeting_o31_hatana_tracen_uniform_18094123:
+
+    # m 1kua "Can you imagine me zooming around the course, [mas_get_player_nickname()]?"
+    m 1kua "¿Te imaginas verme volando por la pista, [mas_get_player_nickname()]?"
+
+# game/script-holidays.rpy:1208
+translate spanish greeting_o31_hatana_tracen_uniform_f569be13:
+
+    # m 1hksdlb "Ahaha! I'm definitely letting myself get carried away now."
+    m 1hksdlb "¡Jajaja! Definitivamente ya me estoy dejando llevar."
+
 # game/script-holidays.rpy:1178
 translate spanish greeting_o31_deco_fe9c0937:
 

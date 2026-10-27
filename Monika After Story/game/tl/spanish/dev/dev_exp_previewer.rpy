@@ -270,6 +270,10 @@ translate spanish strings:
     # old "Formal Dress (Black)"
     # new "Vestido formal (Negro)"
 
+    # dev\dev_exp_previewer.rpy:170
+    old "Formal Dress (Black)"
+    new "Vestido formal (Negro)"
+
     # dev/dev_exp_previewer.rpy:255
     # old "Ponytail"
     # new "Coleta"

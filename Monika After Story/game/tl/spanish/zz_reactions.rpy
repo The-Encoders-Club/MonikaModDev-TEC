@@ -2820,6 +2820,36 @@ translate spanish mas_reaction_gift_noudeck_have_played_e972e366:
     # m 3eua "Alternatively, if you don't remember the rules, I can always remind you, just ask."
     m 3eua "Por otro lado, si no recuerdas las reglas, siempre puedo recordártelas; solo tienes que preguntarme."
 
+# game/zz_reactions.rpy:2915
+translate spanish mas_reaction_gift_clothes_hatana_tracen_uniform_669c8660:
+
+    # m 1etc "Oh, this is..."
+    m 1etc "Oh, esto es..."
+
+# game/zz_reactions.rpy:2916
+translate spanish mas_reaction_gift_clothes_hatana_tracen_uniform_23f81c21:
+
+    # m 3wub "Wait, I think I've seen this uniform before! It's from that game about horse girls, right?"
+    m 3wub "¡Espera, creo que ya he visto este uniforme antes! Es de ese juego sobre chicas caballo, ¿verdad?"
+
+# game/zz_reactions.rpy:2917
+translate spanish mas_reaction_gift_clothes_hatana_tracen_uniform_05461659:
+
+    # m 3hub "You would think this sort of uniform would be hard to run in, but they don't seem to have any trouble at all, ahaha!"
+    m 3hub "Uno pensaría que es difícil correr con este tipo de uniforme, pero a ellas no parece costarles nada, ¡jajaja!"
+
+# game/zz_reactions.rpy:2918
+translate spanish mas_reaction_gift_clothes_hatana_tracen_uniform_675d83db:
+
+    # m 3eta "Hmm...now that I'm thinking about it..."
+    m 3eta "Mmm...ahora que lo pienso..."
+
+# game/zz_reactions.rpy:2919
+translate spanish mas_reaction_gift_clothes_hatana_tracen_uniform_bf5fd7fa:
+
+    # extend 3tua "I've never tried coding something like this, but I might have an idea for this costume."
+    extend 3tua "Nunca he intentado programar algo así, pero quizás tenga una idea para este disfraz."
+
 translate spanish strings:
 
     # game/zz_reactions.rpy:1129
